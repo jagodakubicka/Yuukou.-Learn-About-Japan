@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Japan, Japanese culture, Japanese language, Asian culture, Lanuage school, Business Etiquette, Los Angeles"
+    />
+    <meta name="description" content="Learn about Japanese culture." />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/yuukou-icon.png"
+    />
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <title>Yuukou. | Learn About Japan</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html" class="contact-page-logo logo"
+          ><img src="/images/logo.png" alt="Yuukou-logo"
+        /></a>
+        <a href="#" class="toggle-button contact-page-toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul class="contact-page-nav">
+            <li><a href="/about-us.html">About us</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/faq.html">faq</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- contact form -->
+      <section aria-label="contact-form">
+        <div class="contact-form">
+          <form onsubmit="event.preventDefault(); validateForm()">
+            <p class="header">Contact Us</p>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name" />
+            <small class="error"></small>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Your email" />
+            <small class="error"></small>
+
+            <label for="topic">Topic:</label>
+            <input
+              type="text"
+              placeholder="Topic: ex. Japanese tea ceremony workshops"
+            />
+
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              placeholder="Your message"
+              rows="6"
+            ></textarea>
+            <small class="error"></small>
+
+            <div class="submit">
+              <input type="submit" value="Send" />
+              <p id="success"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    <!-- footer section -->
+    <footer>
+      <div class="footer">
+        <div class="footer-container left-section">
+          <div class="adress-item">
+            <address>
+              <a href="https://www.google.com/maps/place/Wilshire+Park,+Los+Angeles,+Kalifornia,+Stany+Zjednoczone/@34.0571173,-118.3229732,16z/data=!3m1!4b1!4m5!3m4!1s0x80c2b891bf0fde2d:0xd8c4e5161fc6558b!8m2!3d34.0583539!4d-118.3184703"
+                target="_blank">Yuukou. <br />
+                Willshire Park Place 15120 <br />
+                Los Angeles</a
+              >
+            </address>
+          </div>
+        </div>
+        <div class="footer-container middle-section">
+        <img src="/images/logo.png" alt="Yuukou-logo" class="footer-logo" />
+        <div class="footer-links">
+          <a href="/about-us.html">About us</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/faq.html">FAQ</a>
+        </div>
+        <div class="social-media-links">
+          <a href="#"
+            ><img src="/images/icons/icon-facebook.svg" alt="Faceook"
+          /></a>
+          <a href="#"
+            ><img src="/images/icons/icon-instagram.svg" alt="Instagram"
+          /></a>
+          <a href="#"
+            ><img src="/images/icons/icon-pinterest.svg" alt="Pinterest"
+          /></a>
+          <a href="#"
+            ><img src="/images/icons/icon-twitter.svg" alt="Twitter"
+          /></a>
+        </div>
+        <p class="rights">© 2022 Yuukou. All rights reserved.</p>
+      </div>
+      <div class="footer-container right-section">
+      <div class="phone-mail-item">
+            <a href="tel: +00 000 000"><span>&#9743; </span> +00 000 000</a><br>
+            <a href="mail to: contact@Yuukou.com">contact@Yuukou.com</a>
+            <div class="open-hours">
+              <p>office open:</p>
+              <ul>
+              <li>Monday: <span class="hour-text">11am-8pm</span></li>
+              <li>Tuesday: <span class="hour-text">11am-8pm</span></li>
+              <li>Wednesday: <span class="hour-text">11am-8pm</span></li>
+              <li>Thursday: <span class="hour-text">11am-8pm</span></li>
+              <li>Friday: <span class="hour-text">11am-8pm</span></li>
+              <li>Saturday:<span class="hour-text">8am-9pm</span></li>
+              <li>Sunday:<span class="hour-text">8am-9pm</span></li>
+            </ul>
+            </div>
+          </div>
+    </div>
+    </div>
+    </footer>
+    <script src="/index.js"></script>
+  </body>
+</html>
