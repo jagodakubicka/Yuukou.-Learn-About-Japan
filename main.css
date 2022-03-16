@@ -254,10 +254,13 @@ nav li a:hover {
   min-height: 30rem;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+
   color: rgb(248, 245, 245);
   text-shadow: 1px 5px 12px rgb(5, 5, 7);
   padding: 2em;
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 40px;
 }
 .event-text {
   text-align: center;
