@@ -122,8 +122,8 @@ nav li a:hover {
 .contact-page-toggle-button {
   filter: invert(1);
 }
-.header-bg {
-  opacity: 1;
+.header-bg-mobile {
+  display: none;
 }
 .header-text {
   position: absolute;
@@ -179,6 +179,12 @@ nav li a:hover {
   }
 
   .navbar-links.active {
+    display: flex;
+  }
+  .header-bg {
+    display: none;
+  }
+  .header-bg-mobile {
     display: flex;
   }
   .header-text {
@@ -404,7 +410,6 @@ nav li a:hover {
   width: 100%;
 }
 .footer-container {
-  /* border: 1px solid yellow; */
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -463,6 +468,9 @@ nav li a:hover {
 .phone-mail-item a:hover {
   border-bottom: 1px solid white;
 }
+.open-hours {
+  margin: auto;
+}
 
 .open-hours li {
   list-style: none;
@@ -479,7 +487,7 @@ nav li a:hover {
     grid-template-columns: repeat(1, 1fr);
   }
   .social-media-links {
-    width: 30%;
+    margin: auto;
   }
   .middle-section {
     border-left: none;
